@@ -6,7 +6,7 @@
   "license": "MIT",
   "description": "",
   "scripts": {
-    "start": "node server.js"
+    "start": "node backend/server.js"
   },
   "engines": {
     "node": "16.13.0" 
