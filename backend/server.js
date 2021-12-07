@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
-const cors = require('cors')
+const cors = require("cors");
 const devpun = require("devpun");
 const jokesDB = require("devpun/jokes.json");
 const port = process.env.PORT || 1234;
 
 app.use(
   cors({
-    origin: ['http://localhost:1234', '<deployed URL>'],
+    origin: ["http://localhost:1234", "http://localhost:3000"],
   })
 );
 
