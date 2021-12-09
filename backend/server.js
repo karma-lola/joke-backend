@@ -7,7 +7,7 @@ const port = process.env.PORT || 1234;
 
 app.use(
   cors({
-    origin: ["http://localhost:1234", "http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://karma-joke-app.netlify.app"],
   })
 );
 
